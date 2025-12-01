@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(135, 124, 113);
+}
+.preheader {
+    background-color: rgb(197, 199, 162);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.titulo h1 {
+    font-family: Impact;
+    font-weight: bolder; 
+    letter-spacing: 3px;
+    margin: 8px;
+}
+.titulo h2 {
+    font-size: small;
+    padding: 0px;    
+} 
+.michi img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.Producto-grid {
+    display: grid;                       
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;                            
+    padding: 20px;                        
+}
+.producto-caja {
+    background: rgb(196, 135, 135);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 7px;
+}
+.producto-caja img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+.producto-caja h3 {
+    font-size: 15px;
+}
+.opiniones {
+    display: flex;
+    background: rgb(204, 92, 92);
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+.opiniones-caja {
+    background: rgb(183, 123, 123);
+    border-radius: 18px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 3px 5px;
+    margin: 8px;
+}
+.footer-tienda {
+    background: rgb(196, 135, 135);    
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-tienda .redes-footer i {
+    font-size: 1.8rem;
+    margin-left: 15px;
+}
+.producto-caja-sp {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: rgb(196, 135, 135);
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px, solid, rgb(130, 52, 52);
+    
+}
+.producto-caja-sp img {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+
+}
+.cont-producto-caja-sp {
+    max-width: 500px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+@media (max-width: 768px) {
+    .producto-caja-sp {
+        flex-direction: column;   
+        text-align: center;       
+    }
+}
+
+
+    
+
